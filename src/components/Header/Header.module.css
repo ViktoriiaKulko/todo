@@ -1,0 +1,23 @@
+.header {
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 40px;
+  line-height: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  color: var(--c-light);
+  letter-spacing: 15px;
+}
+
+.button {
+  font-size: 26px;
+  line-height: 0;
+  color: var(--c-light);
+  cursor: pointer;
+}
