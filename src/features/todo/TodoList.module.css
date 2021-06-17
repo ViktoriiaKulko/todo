@@ -1,0 +1,7 @@
+.list {
+  transform: translateY(-50px);
+  box-shadow: 0px 35px 50px var(--c-shadow);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}

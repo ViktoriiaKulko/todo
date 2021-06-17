@@ -1,0 +1,8 @@
+.timeAgo {
+  font-size: 12px;
+  line-height: 16px;
+  font-style: italic;
+  color: var(--c-text-secondary);
+  font-weight: 200;
+  transition: color 0.3s;
+}

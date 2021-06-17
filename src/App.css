@@ -20,6 +20,7 @@
   margin: 0 auto;
 }
 
+/* dark theme */
 .theme-dark .app-top {
   background-image: url('./assets/images/bg-desktop-dark.jpg');
 }

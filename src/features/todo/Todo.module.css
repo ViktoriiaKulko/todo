@@ -1,0 +1,48 @@
+.todo {
+  min-height: 78px;
+  background-color: var(--c-primary);
+  border-bottom: 1px solid var(--c-secondary);
+  transition: all 0.3s;
+  cursor: pointer;
+  padding: 20px 24px 16px;
+}
+
+.todo:last-child {
+  border-bottom-color: transparent;
+}
+
+.todo:hover .buttonRemove {
+  opacity: 1;
+  visibility: visible;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  color: var(--c-text-primary);
+  transition: color 0.3s;
+  margin-right: 12px;
+}
+
+.buttonRemove {
+  font-size: 18px;
+  line-height: 0;
+  color: var(--c-text-primary);
+  transition: all 0.3s;
+  cursor: pointer;
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  margin-left: auto;
+}
+
+/* dark theme */
+.theme-dark .buttonRemove {
+  color: var(--c-text-secondary);
+}

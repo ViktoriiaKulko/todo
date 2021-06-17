@@ -1,0 +1,27 @@
+.newTodo {
+  min-height: 64px;
+  display: flex;
+  background-color: var(--c-primary);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px 24px;
+}
+
+.field {
+  flex-grow: 1;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  color: var(--c-text-primary);
+  transition: color 0.3s;
+  margin-right: 12px;
+}
+
+.buttonAdd {
+  font-size: 18px;
+  line-height: 0;
+  color: var(--c-text-primary);
+  transition: all 0.3s;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
